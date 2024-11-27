@@ -14,7 +14,7 @@ Telegraf external plugin that gathers GaussDB monitoring metrics.
 ```toml
 [[inputs.gauss]]
 	host = "gaussdb_host"
-	port = gaussdb_port
+	port = port
 	user = "gaussdb_user"
 	password = "gaussdb_password"
 	dbname = "gaussdb_dbname"
